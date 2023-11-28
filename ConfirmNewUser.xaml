@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="BankAppWPF.ConfirmNewUser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BankAppWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="70" />
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left">
+            <TextBlock Margin ="10" Text="Confirm new User" FontFamily="Arial Rounded MT Bold" FontSize="20" HorizontalAlignment="Left"></TextBlock>
+
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <TextBlock Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >UserId:</TextBlock>
+            <TextBlock Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >First Name:</TextBlock>
+            <TextBlock Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >Last Name:</TextBlock>
+            <TextBlock Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >Email:</TextBlock>
+            <TextBlock Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >Adress:</TextBlock>
+
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <TextBlock x:Name="confirmUserIdTextBlock" Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >UserId:</TextBlock>
+            <TextBlock x:Name="confirmFirstNameTextBlock" Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >First Name:</TextBlock>
+            <TextBlock x:Name="confirmLastNameTextBlock" Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >Last Name:</TextBlock>
+            <TextBlock x:Name="confirmEmailTextBlock" Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >Email:</TextBlock>
+            <TextBlock x:Name="confirmAdressTextBlock" Margin="10 10 0 10" VerticalAlignment="Bottom" Height="20" >Adress</TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2">
+            <Button x:Name="backToRegisterPasswordButton" Content="Previous" Width="100" Height="20" HorizontalAlignment="Left" Click="backToRegisterPasswordButton_Click"/>
+            <Button x:Name="confirmButton" Content="Confirm" Width="100" Height="20" Margin="120,0,0,0" HorizontalAlignment="Right" Click="confirmButton_Click"></Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

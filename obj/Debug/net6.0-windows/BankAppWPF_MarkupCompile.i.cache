@@ -1,0 +1,20 @@
+﻿BankAppWPF
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\tobia\OneDrive - Handelsakademin\Dokument\prog intro\BankAppWPF\obj\Debug\net6.0-windows\
+BankAppWPF
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\tobia\OneDrive - Handelsakademin\Dokument\prog intro\BankAppWPF\App.xaml
+12-156452315
+
+20-295001364
+1941709816142
+BankWindow.xaml;ChooseAccountNameToChange.xaml;CloseAccount.xaml;ConfirmNewUser.xaml;DepositWindow.xaml;EditUserInfo.xaml;LogIn.xaml;MainWindow.xaml;RegisterUser.xaml;ShowUserInfo.xaml;TransferFunds.xaml;wihtdrawWindow.xaml;
+
+True
+

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BankWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChooseAccountNameToChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CloseAccount.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConfirmNewUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DepositWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditUserInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LogIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegisterUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShowUserInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TransferFunds.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="wihtdrawWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BankWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChooseAccountNameToChange.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CloseAccount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConfirmNewUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DepositWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditUserInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LogIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegisterUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ShowUserInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TransferFunds.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="wihtdrawWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
